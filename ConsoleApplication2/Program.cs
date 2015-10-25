@@ -14,8 +14,8 @@ namespace ConsoleApplication2
             Boolean dilHatasi = true;
             do
             {
-                Console.WriteLine("lutfen dil seçiniz / please select the language");
-                Console.WriteLine("Türkçe için 't', for English press 'e'");
+                Console.WriteLine("Lutfen dil seçiniz / please select the language");
+                Console.WriteLine("Türkçe için 'T', for English press 'E'");
                 key = Console.ReadKey().Key;
                 if (key == ConsoleKey.E || key == ConsoleKey.T)
                 {
